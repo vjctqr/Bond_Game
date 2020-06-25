@@ -44,7 +44,7 @@ public class AgentTest {
     @Test
     public void canRecoverHealth(){
         agent.loseHealth();
-        agent.recoverHeath();
+        agent.recoverHealth();
         assertEquals(100, agent.getHealth());
     }
 

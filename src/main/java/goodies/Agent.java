@@ -41,7 +41,7 @@ public class Agent extends Mi6 implements IHealth, IWeapon {
         this.health -= 10;
     }
 
-    public void recoverHeath() {
+    public void recoverHealth() {
         this.health = 100;
     }
 
@@ -54,11 +54,11 @@ public class Agent extends Mi6 implements IHealth, IWeapon {
     }
 
     public void drinkCocktail(){
-        recoverHeath();
+        recoverHealth();
     }
 
     public void getJiggyWithIt(){
-        recoverHeath();
+        recoverHealth();
     }
 
     public void receiveGadget(Gadget gadget){

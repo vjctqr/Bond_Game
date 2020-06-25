@@ -29,8 +29,12 @@ public class GoodGirlTest {
 
     @Test
     public void canMakeCocktail(){
-        agent.loseHealth();
-        goodGirl.makeCocktail("Martini");
+        assertEquals("Your Martini, shaken, not stirred", goodGirl.makeCocktail());
+    }
+
+    @Test
+    public void canSeduce(){
+        goodGirl.seduceAgent(agent);
         assertEquals(100, agent.getHealth());
     }
 
