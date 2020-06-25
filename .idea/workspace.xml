@@ -42,7 +42,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="JUnit.AgentTest.canReceiveGadget">
+  <component name="RunManager" selected="JUnit.QTest.hasName">
     <configuration name="AgentTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="BondGame" />
       <option name="PACKAGE_NAME" value="" />
@@ -82,21 +82,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="All in BondGame" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="QTest.hasName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="BondGame" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="TEST_OBJECT" value="package" />
+      <option name="MAIN_CLASS_NAME" value="QTest" />
+      <option name="METHOD_NAME" value="hasName" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.QTest.hasName" />
         <item itemvalue="JUnit.AgentTest.canReceiveGadget" />
         <item itemvalue="JUnit.AgentTest.canDrinkCocktail" />
         <item itemvalue="JUnit.AgentTest.canChangeWeapon" />
         <item itemvalue="JUnit.AgentTest" />
-        <item itemvalue="JUnit.All in BondGame" />
       </list>
     </recent_temporary>
   </component>
@@ -130,21 +132,21 @@
       <screen x="0" y="23" width="1920" height="985" />
     </state>
     <state x="672" y="238" key="#com.intellij.ide.util.MemberChooser/1920.303.1280.777/0.23.1920.985@0.23.1920.985" timestamp="1593084053769" />
-    <state width="1753" height="266" key="GridCell.Tab.0.bottom" timestamp="1593085128796">
+    <state width="1753" height="266" key="GridCell.Tab.0.bottom" timestamp="1593085297711">
       <screen x="0" y="23" width="1920" height="985" />
     </state>
-    <state width="1753" height="266" key="GridCell.Tab.0.bottom/1920.303.1280.777/0.23.1920.985@0.23.1920.985" timestamp="1593085128796" />
-    <state width="1753" height="266" key="GridCell.Tab.0.center" timestamp="1593085128795">
+    <state width="1753" height="266" key="GridCell.Tab.0.bottom/1920.303.1280.777/0.23.1920.985@0.23.1920.985" timestamp="1593085297711" />
+    <state width="1753" height="266" key="GridCell.Tab.0.center" timestamp="1593085297708">
       <screen x="0" y="23" width="1920" height="985" />
     </state>
-    <state width="1753" height="266" key="GridCell.Tab.0.center/1920.303.1280.777/0.23.1920.985@0.23.1920.985" timestamp="1593085128795" />
-    <state width="1753" height="266" key="GridCell.Tab.0.left" timestamp="1593085128794">
+    <state width="1753" height="266" key="GridCell.Tab.0.center/1920.303.1280.777/0.23.1920.985@0.23.1920.985" timestamp="1593085297708" />
+    <state width="1753" height="266" key="GridCell.Tab.0.left" timestamp="1593085297707">
       <screen x="0" y="23" width="1920" height="985" />
     </state>
-    <state width="1753" height="266" key="GridCell.Tab.0.left/1920.303.1280.777/0.23.1920.985@0.23.1920.985" timestamp="1593085128794" />
-    <state width="1753" height="266" key="GridCell.Tab.0.right" timestamp="1593085128795">
+    <state width="1753" height="266" key="GridCell.Tab.0.left/1920.303.1280.777/0.23.1920.985@0.23.1920.985" timestamp="1593085297707" />
+    <state width="1753" height="266" key="GridCell.Tab.0.right" timestamp="1593085297709">
       <screen x="0" y="23" width="1920" height="985" />
     </state>
-    <state width="1753" height="266" key="GridCell.Tab.0.right/1920.303.1280.777/0.23.1920.985@0.23.1920.985" timestamp="1593085128795" />
+    <state width="1753" height="266" key="GridCell.Tab.0.right/1920.303.1280.777/0.23.1920.985@0.23.1920.985" timestamp="1593085297709" />
   </component>
 </project>
