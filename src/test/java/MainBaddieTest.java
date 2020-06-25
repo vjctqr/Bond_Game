@@ -54,4 +54,12 @@ public class MainBaddieTest {
     public void hasHenchmen(){
         assertEquals(3, mainBaddie.getHenchmenCount());
     }
+
+    @Test
+    public void canAddHenchmen(){
+        Weapon weapon4 = new Weapon("Poison shoe", 4);
+        Henchman henchman4 = new Henchman("Rosa Klebb", weapon4);
+        mainBaddie.addHenchman(henchman4);
+        assertEquals(4, mainBaddie.getHenchmenCount());
+    }
 }

@@ -18,5 +18,7 @@ public class MainBaddie extends Villain{
     public int getHenchmenCount(){
         return getHenchmen().size();
     }
+
+    publi
 }
 
