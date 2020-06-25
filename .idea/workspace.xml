@@ -2,17 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3e357495-9d76-4607-94b6-28eec7f7858d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/AgentTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/BadGirlTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/GoodGirlTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/HenchmanTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/MTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/MainBaddieTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/QTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/baddies/Villain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/baddies/Villain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/girlies/BondGirl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/girlies/BondGirl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/goodies/Mi6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/goodies/Mi6.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/goodies/Quartermaster.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/goodies/Q.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/locations/Location.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/locations/SecretLocation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/locations/StartLocation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/resources/Gadget.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/resources/Weapon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/GadgetTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/WeaponTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
