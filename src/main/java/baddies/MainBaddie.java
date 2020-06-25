@@ -6,9 +6,9 @@ public class MainBaddie extends Villain{
 
     private ArrayList<Henchman> henchmen;
 
-    public MainBaddie(String name, ArrayList<Henchman> henchmen){
+    public MainBaddie(String name){
         super(name);
-        this.henchmen = henchmen;
+        this.henchmen = new ArrayList<Henchman>();
     }
 
     public ArrayList<Henchman> getHenchmen(){

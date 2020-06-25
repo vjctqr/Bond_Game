@@ -31,7 +31,7 @@ public class MainBaddieTest {
         henchman3 = new Henchman("Teehee", weapon3);
         henchmen = new ArrayList<Henchman>();
         Collections.addAll(henchmen, henchman1, henchman2, henchman3);
-        mainBaddie = new MainBaddie("Blofeld", henchmen);
+        mainBaddie = new MainBaddie("Blofeld");
     }
 
     @Test
@@ -51,8 +51,9 @@ public class MainBaddieTest {
     }
 
     @Test
-    public void hasHenchmen(){
-        assertEquals(3, mainBaddie.getHenchmenCount());
+    public void henchmenStartsEmpty(){
+
+        assertEquals(0, mainBaddie.getHenchmenCount());
     }
 
     @Test
@@ -60,12 +61,14 @@ public class MainBaddieTest {
         Weapon weapon4 = new Weapon("Poison shoe", 4);
         Henchman henchman4 = new Henchman("Rosa Klebb", weapon4);
         mainBaddie.addHenchman(henchman4);
-        assertEquals(4, mainBaddie.getHenchmenCount());
+        assertEquals(1, mainBaddie.getHenchmenCount());
     }
 
     @Test
     public void canLoseHenchmen(){
-        mainBaddie.loseHenchman(henchman3);
-        assertEquals(2, mainBaddie.getHenchmenCount());
+        mainBaddie.addHenchman(henchman1);
+        mainBaddie.addHenchman(henchman2);
+        mainBaddie.loseHenchman(henchman2);
+        assertEquals(1, mainBaddie.getHenchmenCount());
     }
 }
