@@ -22,5 +22,8 @@ public class SecretLocation extends Location{
         return this.secretDocument;
     }
 
+//    public void loseSecretDocument(Agent agent){
+//        agent.takeSecretDocument(secretDocument);
+//    }
 
 }

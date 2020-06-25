@@ -2,8 +2,6 @@ package locations;
 
 import goodies.Agent;
 
-import java.util.ArrayList;
-
 public abstract class Location {
 
     private String name;

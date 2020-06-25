@@ -12,6 +12,7 @@ public class Agent extends Mi6 implements IHealth, IWeapon {
    private Weapon weapon;
    private int health;
    private ArrayList<Gadget> gadgets;
+   private ArrayList<String> secretDocuments;
 
 
     public Agent(String name) {
@@ -19,6 +20,7 @@ public class Agent extends Mi6 implements IHealth, IWeapon {
         this.weapon = new Weapon("Walther PPK", 6);
         this.health = 100;
         this.gadgets = new ArrayList<Gadget>();
+        this.secretDocuments = null;
     }
 
     public Weapon getWeapon(){
@@ -32,6 +34,10 @@ public class Agent extends Mi6 implements IHealth, IWeapon {
     public ArrayList<Gadget> getGadgets() {
         return gadgets;
     }
+
+//    public String getSecretDocuments(){
+//        return this.secretDocuments.get(0);
+//    }
 
     public int getGadgetCount(){
         return getGadgets().size();
@@ -69,8 +75,8 @@ public class Agent extends Mi6 implements IHealth, IWeapon {
         return gadget.explode();
     }
 
-//    public void goToLocation(){
-//
+//    public void takeSecretDocument(String secretDocument){
+//        this.secretDocuments.add(secretDocument);
 //    }
 
 }

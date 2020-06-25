@@ -45,5 +45,12 @@ public class SecretLocationTest {
         assertEquals("James Bond", secretLocation.getAgent().getName());
     }
 
+//    @Test
+//    public void agentCanStealDocument(){
+//        secretLocation.agentArrives(agent);
+//        secretLocation.loseSecretDocument(agent);
+//        assertEquals("For Your Eyes Only", agent.getSecretDocuments());
+//    }
+
 
 }

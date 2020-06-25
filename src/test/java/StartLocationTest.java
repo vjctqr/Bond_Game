@@ -50,4 +50,10 @@ public class StartLocationTest {
         startLocation.removeHenchman(henchman1);
         assertEquals(1, startLocation.getHenchmenCount());
     }
+
+    @Test
+    public void agentCanArrive(){
+        startLocation.agentArrives(agent);
+        assertEquals("James Bond", startLocation.getAgent().getName());
+    }
 }
