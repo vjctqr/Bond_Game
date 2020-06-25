@@ -27,11 +27,11 @@ public class GoodGirlTest {
         assertEquals("Honey Ryder", goodGirl.getName());
     }
 
-//    @Test
-//    public void canMakeCocktail(){
-//
-//        goodGirl.makeCocktail("Martini");
-//        assertEquals();
-//    }
+    @Test
+    public void canMakeCocktail(){
+        agent.loseHealth();
+        goodGirl.makeCocktail("Martini");
+        assertEquals(100, agent.getHealth());
+    }
 
 }
