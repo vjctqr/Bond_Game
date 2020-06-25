@@ -23,4 +23,16 @@ public class WeaponTest {
         assertEquals(6, weapon.getBullets());
     }
 
+    @Test
+    public void canFireBullets(){
+        weapon.fireWeapon();
+        assertEquals(5, weapon.getBullets());
+    }
+
+    @Test
+    public void canChangeWeapon(){
+        weapon.changeWeapon("Rifle");
+        assertEquals("Rifle", weapon.getName());
+    }
+
 }

@@ -1,6 +1,8 @@
 package resources;
 
-public class Weapon {
+import behaviours.IWeapon;
+
+public class Weapon implements IWeapon {
     private String name;
     private int bullets;
 
@@ -15,5 +17,13 @@ public class Weapon {
 
     public int getBullets(){
         return this.bullets;
+    }
+
+    public void fireWeapon(){
+        this.bullets -= 1;
+    }
+
+    public void changeWeapon(String newWeapon){
+        this.name = newWeapon;
     }
 }

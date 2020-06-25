@@ -2,7 +2,7 @@ package behaviours;
 
 public interface IWeapon {
 
-    public int fireWeapon();
+    public void fireWeapon();
 
-    public String changeWeapon();
+    public void changeWeapon(String newWeapon);
 }
