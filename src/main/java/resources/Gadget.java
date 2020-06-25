@@ -11,7 +11,9 @@ public class Gadget {
         return name;
     }
 
-    public Str
+    public String explode(){
+        return "Boom";
+    }
 }
 
 

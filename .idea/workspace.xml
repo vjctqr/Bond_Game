@@ -42,7 +42,16 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="JUnit.WeaponTest">
+  <component name="RunManager" selected="JUnit.GadgetTest">
+    <configuration name="GadgetTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="BondGame" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="GadgetTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="WeaponTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="BondGame" />
       <option name="PACKAGE_NAME" value="" />
@@ -64,6 +73,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.GadgetTest" />
         <item itemvalue="JUnit.WeaponTest" />
         <item itemvalue="JUnit.WeaponTest.canFireBullets" />
       </list>
