@@ -36,5 +36,7 @@ public class StartLocationTest {
     }
     
     @Test
-    public void hasHench
+    public void hasHenchmen(){
+        assertEquals(2, startLocation.getHenchmenCount());
+    }
 }
