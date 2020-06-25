@@ -62,4 +62,10 @@ public class MainBaddieTest {
         mainBaddie.addHenchman(henchman4);
         assertEquals(4, mainBaddie.getHenchmenCount());
     }
+
+    @Test
+    public void canLoseHenchmen(){
+        mainBaddie.loseHenchman(henchman3);
+        assertEquals(2, mainBaddie.getHenchmenCount());
+    }
 }
