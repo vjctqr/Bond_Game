@@ -1,4 +1,9 @@
 package baddies;
 
-public class MainBaddie {
+public class MainBaddie extends Villain{
+
+    public MainBaddie(String name){
+        super(name);
+    }
 }
+
