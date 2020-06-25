@@ -9,5 +9,11 @@ public class Weapon {
         this.bullets = bullets;
     }
 
-    public String getName
+    public String getName(){
+        return this.name;
+    }
+
+    public int getBullets(){
+        return this.bullets;
+    }
 }

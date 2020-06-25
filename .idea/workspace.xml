@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3e357495-9d76-4607-94b6-28eec7f7858d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/locations/Location.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/locations/SecretLocation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/locations/StartLocation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/resources/Gadget.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/resources/Weapon.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/GadgetTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/WeaponTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/behaviours/IWeapon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/behaviours/IWeapon.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/resources/Weapon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/resources/Weapon.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +14,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -46,6 +41,22 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RunManager">
+    <configuration name="WeaponTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="BondGame" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="WeaponTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.WeaponTest" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
