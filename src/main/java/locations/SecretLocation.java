@@ -22,4 +22,5 @@ public class SecretLocation extends Location{
         return this.secretDocument;
     }
 
+
 }
