@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3e357495-9d76-4607-94b6-28eec7f7858d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/behaviours/IHealth.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/behaviours/IHealth.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/girlies/GoodGirl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/girlies/GoodGirl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/goodies/Agent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/goodies/Agent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/goodies/Mi6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/goodies/Mi6.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/AgentTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/AgentTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -46,7 +42,16 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="JUnit.BadGirlTest.canChangeWeapon">
+  <component name="RunManager" selected="JUnit.All in BondGame">
+    <configuration name="AgentTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="BondGame" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="AgentTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="All in BondGame" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="BondGame" />
       <option name="PACKAGE_NAME" value="" />
@@ -83,22 +88,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WeaponTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="BondGame" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="WeaponTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.BadGirlTest.canChangeWeapon" />
         <item itemvalue="JUnit.All in BondGame" />
+        <item itemvalue="JUnit.AgentTest" />
+        <item itemvalue="JUnit.BadGirlTest.canChangeWeapon" />
         <item itemvalue="JUnit.BadGirlTest" />
         <item itemvalue="JUnit.GadgetTest" />
-        <item itemvalue="JUnit.WeaponTest" />
       </list>
     </recent_temporary>
   </component>

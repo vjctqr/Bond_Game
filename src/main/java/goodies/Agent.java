@@ -17,7 +17,7 @@ public class Agent extends Mi6 implements IHealth {
         super(name);
         this.weapon = weapon;
         this.health = 100;
-        this.gadgets = new ArrayList;
+        this.gadgets = new ArrayList<Gadget>();
     }
 
     public Weapon getWeapon(){
@@ -32,5 +32,16 @@ public class Agent extends Mi6 implements IHealth {
         return gadgets;
     }
 
-    public int getGad
+    public int getGadgetCount(){
+        return getGadgets().size();
+    }
+
+    public void loseHealth(){
+        this.health -= 10;
+    }
+
+    public void recoverHeath() {
+        this.health = 100;
+    }
+
 }

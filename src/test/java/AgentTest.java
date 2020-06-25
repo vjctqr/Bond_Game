@@ -36,6 +36,18 @@ public class AgentTest {
         assertEquals(0, agent.getGadgetCount());
     }
 
+    @Test
+    public void canLoseHealth(){
+        agent.loseHealth();
+        assertEquals(90, agent.getHealth());
+    }
+
+    @Test
+    public void canRecoverHealth(){
+        agent.loseHealth();
+        agent.recoverHeath();
+        assertEquals(100, agent.getHealth());
+    }
 
 
 }
