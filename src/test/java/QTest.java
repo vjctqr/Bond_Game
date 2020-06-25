@@ -34,4 +34,11 @@ public class QTest {
     public void hasGadgets(){
         assertEquals(2, q.getGadgetCount());
     }
+
+    @Test
+    public void canAddGadgets(){
+        Gadget gadget3 = new Gadget("Cuff Links");
+        q.addGadget(gadget3);
+        assertEquals(3, q.getGadgetCount());
+    }
 }
