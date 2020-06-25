@@ -19,6 +19,8 @@ public class MainBaddie extends Villain{
         return getHenchmen().size();
     }
 
-    publi
+    public void addHenchman(Henchman henchman){
+        henchmen.add(henchman);
+    }
 }
 

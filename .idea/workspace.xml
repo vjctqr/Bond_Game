@@ -46,7 +46,7 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="JUnit.MainBaddieTest.hasHenchmen">
+  <component name="RunManager" selected="JUnit.MainBaddieTest.canAddHenchmen">
     <configuration name="All in BondGame" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="BondGame" />
       <option name="PACKAGE_NAME" value="" />
@@ -74,6 +74,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MainBaddieTest.canAddHenchmen" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="BondGame" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MainBaddieTest" />
+      <option name="METHOD_NAME" value="canAddHenchmen" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MainBaddieTest.hasHenchmen" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="BondGame" />
       <option name="PACKAGE_NAME" value="" />
@@ -84,23 +94,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QTest.hasName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="BondGame" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="QTest" />
-      <option name="METHOD_NAME" value="hasName" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MainBaddieTest.canAddHenchmen" />
         <item itemvalue="JUnit.MainBaddieTest.hasHenchmen" />
         <item itemvalue="JUnit.HenchmanTest" />
         <item itemvalue="JUnit.All in BondGame" />
         <item itemvalue="JUnit.MTest.hasName" />
-        <item itemvalue="JUnit.QTest.hasName" />
       </list>
     </recent_temporary>
   </component>
