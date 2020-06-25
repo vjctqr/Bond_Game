@@ -22,7 +22,7 @@ public class Q extends Mi6{
     }
 
     public void addGadget(Gadget gadget){
-        this.gadgets.add;
+        this.gadgets.add(gadget);
     }
 }
 
