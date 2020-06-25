@@ -62,4 +62,16 @@ public class AgentTest {
         assertEquals("Flame Thrower", agent.getWeapon().getName());
     }
 
+    @Test
+    public void canDrinkCocktail(){
+        agent.drinkCocktail();
+        assertEquals(100, agent.getHealth());
+    }
+
+    @Test
+    public void canGetJiggyWithIt(){
+        agent.getJiggyWithIt();
+        assertEquals(100, agent.getHealth());
+    }
+
 }

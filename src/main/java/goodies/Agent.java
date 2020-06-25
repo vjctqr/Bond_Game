@@ -53,4 +53,11 @@ public class Agent extends Mi6 implements IHealth, IWeapon {
         this.weapon = newWeapon;
     }
 
+    public void drinkCocktail(){
+        recoverHeath();
+    }
+    public void getJiggyWithIt(){
+        recoverHeath();
+    }
+
 }
