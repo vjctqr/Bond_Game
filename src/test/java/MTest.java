@@ -13,7 +13,6 @@ public class MTest {
 
     private M m;
     private Agent agent;
-    private Weapon weapon;
     private ArrayList<Agent> agents;
 
     @Before

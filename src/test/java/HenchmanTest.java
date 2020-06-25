@@ -9,15 +9,13 @@ import static org.junit.Assert.assertEquals;
 public class HenchmanTest {
     private Henchman henchman;
     private Weapon weapon1;
-    private Weapon weapon2;
-//    private Agent agent;
+    private Agent agent;
 
     @Before
     public void before(){
         weapon1 = new Weapon("Bowler hat", 10);
-//        weapon2 = new Weapon("Walther PPK", 6);
         henchman = new Henchman("Oddjob", weapon1);
-//        agent = new Agent("James Bond", weapon2);
+        agent = new Agent("James Bond");
     }
 
     @Test

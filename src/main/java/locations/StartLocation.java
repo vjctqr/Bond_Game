@@ -18,6 +18,10 @@ public class StartLocation extends Location {
         return this.henchmen;
     }
 
+    public int getHenchmenCount(){
+        return getHenchmen().size();
+    }
+
     public void removeHenchmen(Henchman henchman){
         if (henchman.getHealth() == 0){
             this.henchmen.remove(henchman);
