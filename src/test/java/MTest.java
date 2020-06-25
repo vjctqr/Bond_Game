@@ -34,4 +34,12 @@ public class MTest {
     public void hasAgents(){
         assertEquals(1, m.getAgentCount());
     }
+
+    @Test
+    public void canAddAgents(){
+        Weapon weapon1 = new Weapon("Smith and Wesson", 8);
+        Agent agent1 = new Agent("Alec Trevelyan", weapon1);
+        m.addAgent(agent1);
+        assertEquals(2, m.getAgentCount());
+    }
 }

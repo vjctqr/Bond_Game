@@ -44,7 +44,7 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="JUnit.MTest">
+  <component name="RunManager" selected="JUnit.All in BondGame">
     <configuration name="AgentTest.canUseGadget" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="BondGame" />
       <option name="PACKAGE_NAME" value="" />
@@ -94,9 +94,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.All in BondGame" />
         <item itemvalue="JUnit.MTest" />
         <item itemvalue="JUnit.AgentTest.canUseGadget" />
-        <item itemvalue="JUnit.All in BondGame" />
         <item itemvalue="JUnit.MainBaddieTest.canLoseHenchmen" />
         <item itemvalue="JUnit.MainBaddieTest.canAddHenchmen" />
       </list>
@@ -136,22 +136,22 @@
       <screen x="0" y="23" width="1920" height="985" />
     </state>
     <state x="664" y="23" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/1920.303.1280.777/0.23.1920.985@0.23.1920.985" timestamp="1593088385115" />
-    <state width="1753" height="159" key="GridCell.Tab.0.bottom" timestamp="1593090137763">
+    <state width="1753" height="159" key="GridCell.Tab.0.bottom" timestamp="1593091063193">
       <screen x="0" y="23" width="1920" height="985" />
     </state>
-    <state width="1753" height="159" key="GridCell.Tab.0.bottom/1920.303.1280.777/0.23.1920.985@0.23.1920.985" timestamp="1593090137763" />
-    <state width="1753" height="159" key="GridCell.Tab.0.center" timestamp="1593090137762">
+    <state width="1753" height="159" key="GridCell.Tab.0.bottom/1920.303.1280.777/0.23.1920.985@0.23.1920.985" timestamp="1593091063193" />
+    <state width="1753" height="159" key="GridCell.Tab.0.center" timestamp="1593091063191">
       <screen x="0" y="23" width="1920" height="985" />
     </state>
-    <state width="1753" height="159" key="GridCell.Tab.0.center/1920.303.1280.777/0.23.1920.985@0.23.1920.985" timestamp="1593090137762" />
-    <state width="1753" height="159" key="GridCell.Tab.0.left" timestamp="1593090137762">
+    <state width="1753" height="159" key="GridCell.Tab.0.center/1920.303.1280.777/0.23.1920.985@0.23.1920.985" timestamp="1593091063191" />
+    <state width="1753" height="159" key="GridCell.Tab.0.left" timestamp="1593091063189">
       <screen x="0" y="23" width="1920" height="985" />
     </state>
-    <state width="1753" height="159" key="GridCell.Tab.0.left/1920.303.1280.777/0.23.1920.985@0.23.1920.985" timestamp="1593090137762" />
-    <state width="1753" height="159" key="GridCell.Tab.0.right" timestamp="1593090137763">
+    <state width="1753" height="159" key="GridCell.Tab.0.left/1920.303.1280.777/0.23.1920.985@0.23.1920.985" timestamp="1593091063189" />
+    <state width="1753" height="159" key="GridCell.Tab.0.right" timestamp="1593091063192">
       <screen x="0" y="23" width="1920" height="985" />
     </state>
-    <state width="1753" height="159" key="GridCell.Tab.0.right/1920.303.1280.777/0.23.1920.985@0.23.1920.985" timestamp="1593090137763" />
+    <state width="1753" height="159" key="GridCell.Tab.0.right/1920.303.1280.777/0.23.1920.985@0.23.1920.985" timestamp="1593091063192" />
     <state x="390" y="97" key="SettingsEditor" timestamp="1593085516736">
       <screen x="0" y="23" width="1920" height="985" />
     </state>
