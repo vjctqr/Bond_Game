@@ -82,4 +82,11 @@ public class AgentTest {
         assertEquals(1, agent.getGadgetCount());
     }
 
+    @Test
+    public void canUseGadget(){
+        Gadget gadget = new Gadget("Chewing Gum");
+        agent.receiveGadget(gadget);
+        assertEquals("Boom", agent.useGadget(gadget));
+    }
+
 }
