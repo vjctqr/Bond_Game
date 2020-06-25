@@ -22,7 +22,7 @@ public class StartLocation extends Location {
         return getHenchmen().size();
     }
 
-    public void removeHenchmen(Henchman henchman){
+    public void removeHenchman(Henchman henchman){
         if (henchman.getHealth() == 0){
             this.henchmen.remove(henchman);
         }

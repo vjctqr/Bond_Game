@@ -31,7 +31,7 @@ public class HenchmanTest {
     @Test
     public void canLoseHealth(){
         henchman.loseHealth();
-        assertEquals(90, henchman.getHealth());
+        assertEquals(80, henchman.getHealth());
     }
 
     @Test

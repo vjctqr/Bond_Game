@@ -39,4 +39,15 @@ public class StartLocationTest {
     public void hasHenchmen(){
         assertEquals(2, startLocation.getHenchmenCount());
     }
+
+    @Test
+    public void canRemoveHenchmen(){
+        henchman1.loseHealth();
+        henchman1.loseHealth();
+        henchman1.loseHealth();
+        henchman1.loseHealth();
+        henchman1.loseHealth();
+        startLocation.removeHenchman(henchman1);
+        assertEquals(1, startLocation.getHenchmenCount());
+    }
 }

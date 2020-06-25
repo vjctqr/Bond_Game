@@ -47,7 +47,7 @@ public class MainBaddieTest {
     @Test
     public void canLoseHealth(){
         mainBaddie.loseHealth();
-        assertEquals(90, mainBaddie.getHealth());
+        assertEquals(80, mainBaddie.getHealth());
     }
 
     @Test

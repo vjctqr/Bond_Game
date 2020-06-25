@@ -21,7 +21,7 @@ public abstract class Villain implements IHealth {
     }
 
     public void loseHealth(){
-        this.health -= 10;
+        this.health -= 20;
     }
 
 }
