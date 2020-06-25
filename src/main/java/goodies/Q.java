@@ -1,9 +1,24 @@
 package goodies;
 
+import resources.Gadget;
+
+import java.util.ArrayList;
+
 public class Q extends Mi6{
 
-    public Q(String name){
+    private ArrayList<Gadget> gadgets;
+
+    public Q(String name, ArrayList<Gadget> gadgets){
         super(name);
+        this.gadgets = gadgets;
+    }
+
+    public ArrayList<Gadget> getGadgets(){
+        return this.gadgets;
+    }
+
+    public int getGadgetCount(){
+        return this.gadgets.size();
     }
 }
 

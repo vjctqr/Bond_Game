@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3e357495-9d76-4607-94b6-28eec7f7858d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/QTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/QTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/goodies/Q.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/goodies/Q.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +44,7 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="JUnit.MTest">
+  <component name="RunManager" selected="JUnit.QTest.hasGadgets">
     <configuration name="AgentTest.canUseGadget" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="BondGame" />
       <option name="PACKAGE_NAME" value="" />
@@ -73,16 +72,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainBaddieTest.canAddHenchmen" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="BondGame" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="MainBaddieTest" />
-      <option name="METHOD_NAME" value="canAddHenchmen" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="MainBaddieTest.canLoseHenchmen" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="BondGame" />
       <option name="PACKAGE_NAME" value="" />
@@ -93,13 +82,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="QTest.hasGadgets" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="BondGame" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="QTest" />
+      <option name="METHOD_NAME" value="hasGadgets" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.QTest.hasGadgets" />
         <item itemvalue="JUnit.MTest" />
         <item itemvalue="JUnit.All in BondGame" />
         <item itemvalue="JUnit.AgentTest.canUseGadget" />
         <item itemvalue="JUnit.MainBaddieTest.canLoseHenchmen" />
-        <item itemvalue="JUnit.MainBaddieTest.canAddHenchmen" />
       </list>
     </recent_temporary>
   </component>
