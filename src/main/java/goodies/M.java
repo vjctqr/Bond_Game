@@ -18,4 +18,8 @@ public class M extends Mi6 {
     public int getAgentCount(){
         return this.agents.size();
     }
+
+    public void addAgent(Agent agent){
+        agents.add(agent);
+    }
 }
