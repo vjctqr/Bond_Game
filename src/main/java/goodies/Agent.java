@@ -14,9 +14,9 @@ public class Agent extends Mi6 implements IHealth, IWeapon {
    private ArrayList<Gadget> gadgets;
 
 
-    public Agent(String name, Weapon weapon) {
+    public Agent(String name) {
         super(name);
-        this.weapon = weapon;
+        this.weapon = new Weapon("Walther PPK", 6);
         this.health = 100;
         this.gadgets = new ArrayList<Gadget>();
     }

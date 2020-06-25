@@ -2,7 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3e357495-9d76-4607-94b6-28eec7f7858d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/goodies/Agent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/goodies/Agent.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/goodies/Q.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/goodies/Q.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/locations/Location.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/locations/Location.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/locations/SecretLocation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/locations/SecretLocation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/locations/StartLocation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/locations/StartLocation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/AgentTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/AgentTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/GoodGirlTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/GoodGirlTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/HenchmanTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/HenchmanTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/StartLocationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/StartLocationTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,13 +53,12 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="JUnit.QTest.canAddGadgets">
-    <configuration name="AgentTest.canUseGadget" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.AgentTest">
+    <configuration name="AgentTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="BondGame" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="AgentTest" />
-      <option name="METHOD_NAME" value="canUseGadget" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -94,11 +102,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.AgentTest" />
+        <item itemvalue="JUnit.All in BondGame" />
         <item itemvalue="JUnit.QTest.canAddGadgets" />
         <item itemvalue="JUnit.QTest.hasGadgets" />
         <item itemvalue="JUnit.MTest" />
-        <item itemvalue="JUnit.All in BondGame" />
-        <item itemvalue="JUnit.AgentTest.canUseGadget" />
       </list>
     </recent_temporary>
   </component>
@@ -136,22 +144,22 @@
       <screen x="0" y="23" width="1920" height="985" />
     </state>
     <state x="664" y="23" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/1920.303.1280.777/0.23.1920.985@0.23.1920.985" timestamp="1593088385115" />
-    <state width="1753" height="159" key="GridCell.Tab.0.bottom" timestamp="1593091572131">
+    <state width="1753" height="159" key="GridCell.Tab.0.bottom" timestamp="1593093350410">
       <screen x="0" y="23" width="1920" height="985" />
     </state>
-    <state width="1753" height="159" key="GridCell.Tab.0.bottom/1920.303.1280.777/0.23.1920.985@0.23.1920.985" timestamp="1593091572131" />
-    <state width="1753" height="159" key="GridCell.Tab.0.center" timestamp="1593091572128">
+    <state width="1753" height="159" key="GridCell.Tab.0.bottom/1920.303.1280.777/0.23.1920.985@0.23.1920.985" timestamp="1593093350410" />
+    <state width="1753" height="159" key="GridCell.Tab.0.center" timestamp="1593093350408">
       <screen x="0" y="23" width="1920" height="985" />
     </state>
-    <state width="1753" height="159" key="GridCell.Tab.0.center/1920.303.1280.777/0.23.1920.985@0.23.1920.985" timestamp="1593091572128" />
-    <state width="1753" height="159" key="GridCell.Tab.0.left" timestamp="1593091572127">
+    <state width="1753" height="159" key="GridCell.Tab.0.center/1920.303.1280.777/0.23.1920.985@0.23.1920.985" timestamp="1593093350408" />
+    <state width="1753" height="159" key="GridCell.Tab.0.left" timestamp="1593093350407">
       <screen x="0" y="23" width="1920" height="985" />
     </state>
-    <state width="1753" height="159" key="GridCell.Tab.0.left/1920.303.1280.777/0.23.1920.985@0.23.1920.985" timestamp="1593091572127" />
-    <state width="1753" height="159" key="GridCell.Tab.0.right" timestamp="1593091572130">
+    <state width="1753" height="159" key="GridCell.Tab.0.left/1920.303.1280.777/0.23.1920.985@0.23.1920.985" timestamp="1593093350407" />
+    <state width="1753" height="159" key="GridCell.Tab.0.right" timestamp="1593093350409">
       <screen x="0" y="23" width="1920" height="985" />
     </state>
-    <state width="1753" height="159" key="GridCell.Tab.0.right/1920.303.1280.777/0.23.1920.985@0.23.1920.985" timestamp="1593091572130" />
+    <state width="1753" height="159" key="GridCell.Tab.0.right/1920.303.1280.777/0.23.1920.985@0.23.1920.985" timestamp="1593093350409" />
     <state x="390" y="97" key="SettingsEditor" timestamp="1593085516736">
       <screen x="0" y="23" width="1920" height="985" />
     </state>

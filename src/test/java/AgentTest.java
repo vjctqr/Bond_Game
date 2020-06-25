@@ -9,12 +9,10 @@ import static org.junit.Assert.assertEquals;
 public class AgentTest {
 
     private Agent agent;
-    private Weapon weapon;
 
     @Before
     public void before(){
-        weapon = new Weapon("Walther PPK", 6);
-        agent = new Agent("James Bond", weapon);
+        agent = new Agent("James Bond");
     }
 
     @Test
@@ -24,7 +22,7 @@ public class AgentTest {
 
     @Test
     public void hasWeapon(){
-        assertEquals(weapon, agent.getWeapon());
+        assertEquals("Walther PPK", agent.getWeapon().getName());
     }
 
     @Test

@@ -18,7 +18,7 @@ public class Q extends Mi6{
     }
 
     public int getGadgetCount(){
-        return this.gadgets.size();
+        return getGadgets().size();
     }
 
     public void addGadget(Gadget gadget){

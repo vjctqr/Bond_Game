@@ -18,8 +18,7 @@ public class MTest {
 
     @Before
     public void before(){
-        weapon = new Weapon("Walther PPK", 6);
-        agent = new Agent("James Bond", weapon);
+        agent = new Agent("James Bond");
         agents = new ArrayList<Agent>();
         Collections.addAll(agents, agent);
         m = new M("M", agents);
@@ -37,8 +36,7 @@ public class MTest {
 
     @Test
     public void canAddAgents(){
-        Weapon weapon1 = new Weapon("Smith and Wesson", 8);
-        Agent agent1 = new Agent("Alec Trevelyan", weapon1);
+        Agent agent1 = new Agent("Alec Trevelyan");
         m.addAgent(agent1);
         assertEquals(2, m.getAgentCount());
     }
