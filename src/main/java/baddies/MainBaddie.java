@@ -6,10 +6,17 @@ public class MainBaddie extends Villain{
 
     private ArrayList<Henchman> henchmen;
 
-    public MainBaddie(String name){
+    public MainBaddie(String name, ArrayList<Henchman> henchmen){
         super(name);
-        this.henchmen = new ArrayList<Henchman>();
+        this.henchmen = henchmen;
     }
 
+    public ArrayList<Henchman> getHenchmen(){
+        return this.henchmen;
+    }
+
+    public int getHenchmenCount(){
+        return getHenchmen().size();
+    }
 }
 

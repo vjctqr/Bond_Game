@@ -29,9 +29,9 @@ public class MainBaddieTest {
         henchman1 = new Henchman("Oddjob", weapon1);
         henchman2 = new Henchman("Jaws", weapon2);
         henchman3 = new Henchman("Teehee", weapon3);
-        mainBaddie = new MainBaddie("Blofeld");
         henchmen = new ArrayList<Henchman>();
         Collections.addAll(henchmen, henchman1, henchman2, henchman3);
+        mainBaddie = new MainBaddie("Blofeld", henchmen);
     }
 
     @Test
@@ -52,6 +52,6 @@ public class MainBaddieTest {
 
     @Test
     public void hasHenchmen(){
-        assertEquals(3, mainBaddie.getHenchmen());
+        assertEquals(3, mainBaddie.getHenchmenCount());
     }
 }
