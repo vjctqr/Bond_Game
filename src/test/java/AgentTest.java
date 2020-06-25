@@ -1,6 +1,7 @@
 import goodies.Agent;
 import org.junit.Before;
 import org.junit.Test;
+import resources.Gadget;
 import resources.Weapon;
 
 import static org.junit.Assert.assertEquals;
@@ -72,6 +73,13 @@ public class AgentTest {
     public void canGetJiggyWithIt(){
         agent.getJiggyWithIt();
         assertEquals(100, agent.getHealth());
+    }
+
+    @Test
+    public void canReceiveGadget(){
+        Gadget gadget = new Gadget("Chewing Gum");
+        agent.receiveGadget(gadget);
+        assertEquals(1, agent.getGadgetCount());
     }
 
 }
