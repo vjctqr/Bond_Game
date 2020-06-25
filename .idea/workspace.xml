@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3e357495-9d76-4607-94b6-28eec7f7858d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/girlies/BondGirl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/girlies/BondGirl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/girlies/GoodGirl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/girlies/GoodGirl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/GadgetTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/GadgetTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/GoodGirlTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/GoodGirlTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +41,15 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="JUnit.GadgetTest">
+  <component name="RunManager" selected="JUnit.All in BondGame">
+    <configuration name="All in BondGame" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="BondGame" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="GadgetTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="BondGame" />
       <option name="PACKAGE_NAME" value="" />
@@ -76,6 +80,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.All in BondGame" />
         <item itemvalue="JUnit.GadgetTest" />
         <item itemvalue="JUnit.WeaponTest" />
         <item itemvalue="JUnit.WeaponTest.canFireBullets" />
