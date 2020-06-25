@@ -65,9 +65,9 @@ public class Agent extends Mi6 implements IHealth, IWeapon {
         gadgets.add(gadget);
     }
 
-//    public void useGadget(Gadget gadget){
-//
-//    }
+    public String useGadget(Gadget gadget){
+        return gadget.explode();
+    }
 
 //    public void goToLocation(){
 //
