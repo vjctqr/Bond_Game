@@ -1,4 +1,4 @@
 package girlies;
 
-public class BondGirl {
+public abstract class BondGirl {
 }

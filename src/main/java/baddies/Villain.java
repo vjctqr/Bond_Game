@@ -1,4 +1,4 @@
 package baddies;
 
-public class Villain {
+public abstract class Villain {
 }

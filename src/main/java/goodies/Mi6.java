@@ -1,4 +1,4 @@
 package goodies;
 
-public class Mi6 {
+public abstract class Mi6 {
 }
