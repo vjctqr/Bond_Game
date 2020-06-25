@@ -11,4 +11,8 @@ public abstract class BondGirl {
     public String getName(){
         return this.name;
     }
+
+//    public void seduce(){
+//
+//    }
 }

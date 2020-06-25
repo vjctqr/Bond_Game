@@ -20,18 +20,19 @@ public class WeaponTest {
 
     @Test
     public void hasBullets(){
-        assertEquals(6, weapon.getBullets());
+        assertEquals(6, weapon.getAmmo());
     }
 
     @Test
     public void canFireBullets(){
-        weapon.fireWeapon();
-        assertEquals(5, weapon.getBullets());
+        weapon.useWeapon();
+        assertEquals(5, weapon.getAmmo());
     }
 
     @Test
     public void canChangeWeapon(){
-        weapon.changeWeapon("Rifle");
+        Weapon newWeapon = new Weapon("Rifle", 100);
+        weapon.changeWeapon(newWeapon);
         assertEquals("Rifle", weapon.getName());
     }
 

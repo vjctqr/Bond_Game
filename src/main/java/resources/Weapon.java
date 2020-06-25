@@ -4,26 +4,27 @@ import behaviours.IWeapon;
 
 public class Weapon implements IWeapon {
     private String name;
-    private int bullets;
+    private int ammo;
 
-    public Weapon(String name, int bullets){
+    public Weapon(String name, int ammo){
         this.name = name;
-        this.bullets = bullets;
+        this.ammo = ammo;
     }
 
     public String getName(){
         return this.name;
     }
 
-    public int getBullets(){
-        return this.bullets;
+    public int getAmmo(){
+        return this.ammo;
     }
 
-    public void fireWeapon(){
-        this.bullets -= 1;
+    public void useWeapon(){
+        this.ammo -= 1;
     }
 
-    public void changeWeapon(String newWeapon){
-        this.name = newWeapon;
+    public void changeWeapon(Weapon newWeapon){
+        this.name = newWeapon.name;
+        this.ammo = newWeapon.ammo;
     }
 }

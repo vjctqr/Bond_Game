@@ -1,8 +1,10 @@
 package behaviours;
 
+import resources.Weapon;
+
 public interface IWeapon {
 
-    public void fireWeapon();
+    public void useWeapon();
 
-    public void changeWeapon(String newWeapon);
+    public void changeWeapon(Weapon newWeapon);
 }
