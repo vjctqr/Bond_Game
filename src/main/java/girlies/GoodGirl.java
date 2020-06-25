@@ -1,4 +1,7 @@
 package girlies;
 
-public class GoodGirl {
+public class GoodGirl extends BondGirl{
+
+    public GoodGirl()
+
 }

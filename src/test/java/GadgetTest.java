@@ -19,7 +19,7 @@ public class GadgetTest {
     }
 
     @Test
-    public void canBomb(){
+    public void canExplode(){
         assertEquals("Boom", gadget.explode());
     }
 
