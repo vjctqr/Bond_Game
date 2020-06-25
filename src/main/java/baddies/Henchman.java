@@ -12,6 +12,10 @@ public class Henchman extends Villain implements IWeapon {
         this.weapon = weapon;
     }
 
+    public Weapon getWeapon(){
+        return this.weapon;
+    }
+
     public void useWeapon(){
         weapon.useWeapon();
     }

@@ -33,6 +33,19 @@ public class HenchmanTest {
 
     @Test
     public void hasWeapon(){
-        assertEquals("Bowler hat", henchman.getWeapon());
+        assertEquals("Bowler hat", henchman.getWeapon().getName());
+    }
+
+    @Test
+    public void canUseWeapon(){
+        henchman.useWeapon();
+        assertEquals(9, henchman.getWeapon().getAmmo());
+    }
+
+    @Test
+    public void canChangeWeapon(){
+        Weapon newWeapon = new Weapon("Golf club", 10);
+        henchman.changeWeapon(newWeapon);
+        assertEquals("Golf club", henchman.getWeapon().getName());
     }
 }
