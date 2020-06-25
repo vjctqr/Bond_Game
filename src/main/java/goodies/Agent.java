@@ -1,12 +1,13 @@
 package goodies;
 
 import behaviours.IHealth;
+import behaviours.IWeapon;
 import resources.Gadget;
 import resources.Weapon;
 
 import java.util.ArrayList;
 
-public class Agent extends Mi6 implements IHealth {
+public class Agent extends Mi6 implements IHealth, IWeapon {
 
    private Weapon weapon;
    private int health;
@@ -42,6 +43,14 @@ public class Agent extends Mi6 implements IHealth {
 
     public void recoverHeath() {
         this.health = 100;
+    }
+
+    public void useWeapon(){
+        weapon.useWeapon();
+    }
+
+    public void changeWeapon(Weapon newWeapon){
+        this.weapon = newWeapon;
     }
 
 }

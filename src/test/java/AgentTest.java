@@ -49,5 +49,17 @@ public class AgentTest {
         assertEquals(100, agent.getHealth());
     }
 
+    @Test
+    public void canUseWeapon(){
+        agent.useWeapon();
+        assertEquals(5, agent.getWeapon().getAmmo());
+    }
+
+    @Test
+    public void canChangeWeapon(){
+        Weapon newWeapon = new Weapon("Flame Thrower", 5);
+        agent.changeWeapon(newWeapon);
+        assertEquals("Flame Thrower", agent.getWeapon().getName());
+    }
 
 }
