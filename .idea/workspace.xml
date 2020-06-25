@@ -3,9 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="3e357495-9d76-4607-94b6-28eec7f7858d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/src/main/java/girlies/GoodGirl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/girlies/GoodGirl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/goodies/Agent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/goodies/Agent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/AgentTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/AgentTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/GoodGirlTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/GoodGirlTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +44,7 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="JUnit.GoodGirlTest.canSeduce">
+  <component name="RunManager" selected="JUnit.All in BondGame">
     <configuration name="AgentTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="BondGame" />
       <option name="PACKAGE_NAME" value="" />
@@ -96,9 +93,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.All in BondGame" />
         <item itemvalue="JUnit.GoodGirlTest.canSeduce" />
         <item itemvalue="JUnit.GoodGirlTest" />
-        <item itemvalue="JUnit.All in BondGame" />
         <item itemvalue="JUnit.StartLocationTest.canRemoveHenchmen" />
         <item itemvalue="JUnit.AgentTest" />
       </list>
@@ -138,22 +135,22 @@
       <screen x="0" y="23" width="1920" height="985" />
     </state>
     <state x="664" y="23" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/1920.303.1280.777/0.23.1920.985@0.23.1920.985" timestamp="1593088385115" />
-    <state width="1753" height="159" key="GridCell.Tab.0.bottom" timestamp="1593095017393">
+    <state width="1753" height="111" key="GridCell.Tab.0.bottom" timestamp="1593095093680">
       <screen x="0" y="23" width="1920" height="985" />
     </state>
-    <state width="1753" height="159" key="GridCell.Tab.0.bottom/1920.303.1280.777/0.23.1920.985@0.23.1920.985" timestamp="1593095017393" />
-    <state width="1753" height="159" key="GridCell.Tab.0.center" timestamp="1593095017389">
+    <state width="1753" height="111" key="GridCell.Tab.0.bottom/1920.303.1280.777/0.23.1920.985@0.23.1920.985" timestamp="1593095093680" />
+    <state width="1753" height="111" key="GridCell.Tab.0.center" timestamp="1593095093679">
       <screen x="0" y="23" width="1920" height="985" />
     </state>
-    <state width="1753" height="159" key="GridCell.Tab.0.center/1920.303.1280.777/0.23.1920.985@0.23.1920.985" timestamp="1593095017389" />
-    <state width="1753" height="159" key="GridCell.Tab.0.left" timestamp="1593095017386">
+    <state width="1753" height="111" key="GridCell.Tab.0.center/1920.303.1280.777/0.23.1920.985@0.23.1920.985" timestamp="1593095093679" />
+    <state width="1753" height="111" key="GridCell.Tab.0.left" timestamp="1593095093678">
       <screen x="0" y="23" width="1920" height="985" />
     </state>
-    <state width="1753" height="159" key="GridCell.Tab.0.left/1920.303.1280.777/0.23.1920.985@0.23.1920.985" timestamp="1593095017386" />
-    <state width="1753" height="159" key="GridCell.Tab.0.right" timestamp="1593095017391">
+    <state width="1753" height="111" key="GridCell.Tab.0.left/1920.303.1280.777/0.23.1920.985@0.23.1920.985" timestamp="1593095093678" />
+    <state width="1753" height="111" key="GridCell.Tab.0.right" timestamp="1593095093679">
       <screen x="0" y="23" width="1920" height="985" />
     </state>
-    <state width="1753" height="159" key="GridCell.Tab.0.right/1920.303.1280.777/0.23.1920.985@0.23.1920.985" timestamp="1593095017391" />
+    <state width="1753" height="111" key="GridCell.Tab.0.right/1920.303.1280.777/0.23.1920.985@0.23.1920.985" timestamp="1593095093679" />
     <state x="390" y="97" key="SettingsEditor" timestamp="1593085516736">
       <screen x="0" y="23" width="1920" height="985" />
     </state>

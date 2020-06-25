@@ -34,7 +34,7 @@ public class GoodGirlTest {
 
     @Test
     public void canSeduce(){
-        goodGirl.seduceAgent(agent);
+        goodGirl.seduce(agent);
         assertEquals(100, agent.getHealth());
     }
 

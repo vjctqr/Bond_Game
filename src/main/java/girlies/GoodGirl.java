@@ -1,9 +1,9 @@
 package girlies;
 
+import behaviours.ISeduce;
 import goodies.Agent;
-import resources.Weapon;
 
-public class GoodGirl extends BondGirl{
+public class GoodGirl extends BondGirl implements ISeduce {
 
     private Agent agent;
 
@@ -20,7 +20,7 @@ public class GoodGirl extends BondGirl{
         return "Your Martini, shaken, not stirred";
     }
 
-    public void seduceAgent(Agent agent){
+    public void seduce(Agent agent){
         makeCocktail();
         agent.getJiggyWithIt();
     }
