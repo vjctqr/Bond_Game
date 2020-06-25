@@ -22,5 +22,9 @@ public class MainBaddie extends Villain{
     public void addHenchman(Henchman henchman){
         henchmen.add(henchman);
     }
+
+    public void loseHenchman(Henchman henchman){
+        henchmen.remove(henchman);
+    }
 }
 
